@@ -188,26 +188,32 @@ p {
 /* products  */
 
 .pro-container {
-   display: flex;
+  
+    display: flex;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
+   /* height: 250px; */
 }
 #Product1 {
+ 
     text-align: center;
 }
 
 #Product1 .pro img {
     width: 100%;
-  
+    height: 300px;
     border-radius:20px ;
 }
 
 #Product1 .pro {
-    
+ 
+    overflow: hidden;
     padding: 10px 12px;
     border: 1px solid #efeff1;
-    width: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     border-radius:25px;
     cursor: pointer;
     box-shadow: 20px 20px 35px rgba(0, 0, 0, 0.06);
@@ -229,6 +235,7 @@ p {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 18px;
+    /* overflow: hidden; */
 
 }
 #Product1 .pro .desc i {
